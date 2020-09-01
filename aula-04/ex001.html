@@ -20,10 +20,13 @@
     <h1>Olá,Mundo!</h1>
     <p>Já me livrei da maldição.</p>
     <script>
-        window.alert('Minha primeira menssagem!')
-        window.confirm('Está gostando de JS?')
-        window.prompt('qual é seu nome?')
+      /* var nome = window.prompt("Qual é seu nome?") // serve para digitar um nome...
+       window.alert("É um grande prazer em te conhecer," + nome + '!') // concatenação..*/
 
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Digite outro número: '))
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} e ingual a ${s} `)
 
     </script>
 </body>
